@@ -34,20 +34,21 @@ azure-voting-microservices/
 ├── README.md
 │
 └── src/
-    ├── vote/
+    ├── vote/                 # Python Flask frontend service
     │   ├── app.py
     │   ├── Dockerfile
     │   └── requirements.txt
     │
-    ├── result/
+    ├── result/               # Python Flask results dashboard
     │   ├── app.py
     │   ├── Dockerfile
     │   └── requirements.txt
     │
-    └── worker/
-        ├── app.py / worker.csproj
+    └── worker/               # .NET background processing service
+        ├── worker.csproj
+        ├── Program.cs (or Worker.cs)
         ├── Dockerfile
-        └── dependencies
+        └── NuGet dependencies (defined in .csproj)
         
 ⚙️ Technologies Used
 Docker & Docker Compose
