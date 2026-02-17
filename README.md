@@ -29,25 +29,15 @@ Fault isolation
 
 🗂 Project Structure
 azure-voting-microservices/
-
 │
-
 ├── docker-compose.yml
-
 ├── README.md
-
 │
-
 └── src/
-
     ├── vote/
-    
     │   ├── app.py
-    
     │   ├── Dockerfile
-    
     │   └── requirements.txt
-    
     │
     ├── result/
     │   ├── app.py
