@@ -27,7 +27,9 @@ Non-blocking UI
 Horizontal scalability
 Fault isolation
 
-🗂 Project Structure
+## 🗂 Project Structure
+
+```
 azure-voting-microservices/
 │
 ├── docker-compose.yml
@@ -46,9 +48,10 @@ azure-voting-microservices/
     │
     └── worker/               # .NET background processing service
         ├── worker.csproj
-        ├── Program.cs (or Worker.cs)
+        ├── Program.cs
         ├── Dockerfile
-        └── NuGet dependencies (defined in .csproj)
+        └── (NuGet dependencies defined in worker.csproj)
+```
         
 ⚙️ Technologies Used
 Docker & Docker Compose
